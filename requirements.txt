@@ -1,6 +1,6 @@
-torch==2.0.1+cu117
-torchvision==0.15.2+cu117
-numpy>=1.18.5
+torch
+torchvision
+numpy
 opencv-python>=4.1.2
 matplotlib>=3.2.2
 PyYAML>=5.3.1
