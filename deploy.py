@@ -1,9 +1,5 @@
 import subprocess
 import sys
-def install():
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "package.txt"])
-
-install()
 def install_requirements():
     subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
 
