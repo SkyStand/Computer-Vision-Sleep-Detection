@@ -1,7 +1,7 @@
 import subprocess
 import sys
 def install_requirements():
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "yolov5\requirements.txt"])
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
 
 install_requirements()
 
