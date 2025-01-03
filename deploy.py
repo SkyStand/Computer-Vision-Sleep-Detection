@@ -1,3 +1,9 @@
+def install_requirements():
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+
+install_requirements()
+
+
 import streamlit as st
 import cv2
 import torch
@@ -5,12 +11,6 @@ import numpy as np
 from pathlib import Path
 import subprocess
 import sys
-
-def install_requirements():
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
-
-install_requirements()
-
 
 MODEL_PATH = 'yolov5/runs/train/exp42/weights/last.pt'
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
