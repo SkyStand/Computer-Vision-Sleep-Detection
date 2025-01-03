@@ -1,10 +1,3 @@
-import subprocess
-import sys
-def install_requirements():
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
-
-install_requirements()
-
 
 import streamlit as st
 import cv2
