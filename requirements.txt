@@ -1,8 +1,7 @@
 torch
-libgl1
 torchvision
 numpy
-opencv-python-headless>=4.1.2
+opencv-python-headless
 matplotlib>=3.2.2
 PyYAML>=5.3.1
 scipy>=1.4.1
